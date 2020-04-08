@@ -3713,9 +3713,9 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-"node-addon-api@git+https://github.com/blagoev/node-addon-api.git":
+"node-addon-api@git+https://github.com/blagoev/node-addon-api.git#rjs":
   version "2.0.0"
-  resolved "git+https://github.com/blagoev/node-addon-api.git#4d816183daadd1fec9411f9a3c566b098059e02b"
+  resolved "git+https://github.com/blagoev/node-addon-api.git#7f56a78ff7eab77f1316696aef1de3304b70e639"
 
 node-fetch@^1.0.1, node-fetch@^1.7.3:
   version "1.7.3"
@@ -4223,10 +4223,10 @@ readable-stream@^2.0.0, readable-stream@^2.0.5, readable-stream@^2.0.6, readable
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
 
-realm@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/realm/-/realm-5.0.0.tgz#c990992ca6ba524116838dba3959575642949e0d"
-  integrity sha512-nIfJgsb65cDXYnG/ocL9ew3VxajcI34wJ9a1Ynty6uPv53vmOfoZJoycaSFmchebbWjpOmJrFPqEhhdNwWCnfA==
+realm@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/realm/-/realm-5.0.3.tgz#163996e37f9529045d51751f333cb13b1299a0b2"
+  integrity sha512-V1q/qp5CeAqe5TW8eJVtGakLbR/sKjeEtJ9e1m/ISze8bU46kvNfCFQApiBPuujrWUgo/v+4qN1QgKwFa+8a9g==
   dependencies:
     command-line-args "^4.0.6"
     decompress "^4.2.0"
@@ -4235,7 +4235,7 @@ realm@^5.0.0:
     fs-extra "^4.0.3"
     https-proxy-agent "^2.2.4"
     ini "^1.3.5"
-    node-addon-api "git+https://github.com/blagoev/node-addon-api.git"
+    node-addon-api "git+https://github.com/blagoev/node-addon-api.git#rjs"
     node-fetch "^1.7.3"
     node-machine-id "^1.1.10"
     node-pre-gyp "^0.14.0"
